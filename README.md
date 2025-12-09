@@ -46,10 +46,12 @@ The system calculates a **Total Score** (0-100%) based on a weighted average of 
 ## 📂 Project Structure
 ```bash
 Resume-Screener/
+├── models/                  # Contains SBERT model files
 ├── resumes/                 # Folder to store candidate PDF files
 │   ├── candidate_1.pdf
 │   └── candidate_2.pdf
 ├── main.py                  # Main script containing the logic
 ├── requirements.txt         # List of dependencies
 ├── ranking_report.csv       # Output file (Generated after running)
+├── LICENSE                  # MIT License
 └── README.md                # Documentation
